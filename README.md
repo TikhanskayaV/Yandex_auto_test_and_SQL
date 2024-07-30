@@ -12,8 +12,9 @@
 3. Выполнить запрос на получения заказа по треку заказа.
 4. Проверить, что код ответа равен 200.
 
-### Скриншот результата:
+### Скриншот результата: 
 
+![auto_test_sc](https://github.com/TikhanskayaV/Yandex_auto_test_and_SQL/blob/main/screenshots/auto_test.png)
 
 ## **Работа с базой данных. PostgreSQL**
 
@@ -29,7 +30,7 @@ SELECT c.login, COUNT(o.id) AS "deliveryCount" FROM "Couriers" AS c LEFT JOIN "O
 
 ### Скриншот:
 
-
+![sql_1_sc](https://github.com/TikhanskayaV/Yandex_auto_test_and_SQL/blob/main/screenshots/sql_1.png)
 
 Задание 2
 
@@ -53,3 +54,4 @@ SELECT track, CASE WHEN finished = true THEN 2 WHEN cancelled = true THEN -1 WHE
 
 ### Скриншот:
 
+![sql_2_sc](https://github.com/TikhanskayaV/Yandex_auto_test_and_SQL/blob/main/screenshots/sql_2.png)
